@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morning Routine</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Morning Routine</h1>
+        <label for="wakeupTime">Wake Up Time: </label>
+        <input type="time" id="wakeupTime" value="06:30">
+        <br>
+        <label for="firstTaskTime">First Task Time: </label>
+        <input type="time" id="firstTaskTime">
+        <br>
+        <button onclick="generateSchedule()">Generate Schedule</button>
+        <div id="tasks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
